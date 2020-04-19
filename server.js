@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const index = require("./routes/index");
 const tasks = require("./routes/tasks");
 
-var port = 5432;
+var port = 5000;
 
 var app = express();
 
